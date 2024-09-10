@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        font-family: "Roboto", sans-serif;
+      }
+      .info{
+        max-width: 800px;
+        height: 100vh;
+      }
+      .info p, .info p a {
+        color: gray;
+        text-decoration: none;
+      }
+      .info a:hover{
+          color: blue;
+          text-decoration: underline;
+      }
+      button{
+        float: right;
+        display: none;
+      }
+      .email:hover > button{
+          display: block;
+      }
+      .info h1{
+        color: purple;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="info">
+        <h1>Information on Whales</h1>
+        <p>For more information on our conservation activities and which Whales we study, see our <a href="./whales.html" title="Information on Blue Whales and Sperm Whales">Whales page</a>.
+        If you want to ask our team more questions, feel free to <a class="email" href="mailto:whales@example.com?subject=Question%20about%20Whales">email us<button>Question about Whales</button></a>.
+        </p>
+    </div>
+  </body>
+</html>
